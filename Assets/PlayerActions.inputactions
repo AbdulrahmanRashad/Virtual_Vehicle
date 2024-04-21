@@ -1,0 +1,54 @@
+{
+    "name": "PlayerActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "deccc957-42bf-4238-8a96-76c4bb6b8cd1",
+            "actions": [
+                {
+                    "name": "TurnDirection",
+                    "type": "Value",
+                    "id": "446b9aed-966b-4f5f-af6a-cdf459ca95d2",
+                    "expectedControlType": "Double",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ForwardReverse",
+                    "type": "Value",
+                    "id": "0c038d6e-c1db-451e-929d-f1726875617b",
+                    "expectedControlType": "Double",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "699eb2da-f9ca-472b-b6be-8b27fe75569c",
+                    "path": "<OculusTouchController>/thumbstick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TurnDirection",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "55279bcc-c06f-4258-b553-cbfd68bb2abc",
+                    "path": "<OculusTouchController>/thumbstick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ForwardReverse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
