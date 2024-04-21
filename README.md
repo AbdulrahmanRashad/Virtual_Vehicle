@@ -3,19 +3,19 @@ Using Unity and Oculus Quest 2 to create a driving simulator game that allows pl
 control the analog button until the car moves right, left, forward and backward. If the car collides with any obstacle, the game restarts.
 
 ## Controls and interactions
-❖ Controllers --→ Your right hand and your right foot
-❖ Thumbstick in two direction (X and Y)
+1. Controllers --→ Your right hand and your right foot
+2. Thumbstick in two direction (X and Y)
 
 ## Development
-• Car Movement script
-• Collision script
-• Parking gate Animation script
-• Hand Animation script
+1. Car Movement script
+2. Collision script
+3. Parking gate Animation script
+4. Hand Animation script
 
 ## Schedule and milestones
-• Separating Game Objects at Blinder
-• Building the scenes
-• Adding game mechanisms
-• Development
-• Testing
+1. Separating Game Objects at Blinder
+2. Building the scenes
+3. Adding game mechanisms
+4. Development
+5. Testing
 
